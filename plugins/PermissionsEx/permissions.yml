@@ -1,0 +1,24 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&2[สมาชิก]§f - '
+    permissions:
+    - modifyworld.*
+  admin:
+    permissions:
+    - op
+    options:
+      prefix: '&4[แอดมิน]§f - '
+schema-version: 1
+users:
+  da001305-0591-3a69-a319-bf6d678ee232:
+    group:
+    - admin
+    options:
+      name: tsch
+  6791eba2-4438-3449-84f9-f8ef2ac07436:
+    group:
+    - admin
+    options:
+      name: topcast

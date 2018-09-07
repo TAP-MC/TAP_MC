@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2561-09-03 23:01:24 +0700",
+      "forest_hills": "2561-09-05 20:52:12 +0700"
+    },
+    "done": false
+  }
+}

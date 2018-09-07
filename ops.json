@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "da001305-0591-3a69-a319-bf6d678ee232",
+    "name": "tsch",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "46c9fc2f-8bcc-3694-a9ea-e24c10fd8944",
+    "name": "flldflg",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1f61ba06-e8b5-3916-a803-2178457165fc",
+    "name": "snowleo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6791eba2-4438-3449-84f9-f8ef2ac07436",
+    "name": "topcast",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

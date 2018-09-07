@@ -1,0 +1,22 @@
+lastAccountName: TSCH
+timestamps:
+  login: 1536327440386
+  logout: 1536328436386
+ipAddress: 25.66.6.243
+nickname: TSCH
+lastlocation:
+  world: world
+  x: 244.5
+  y: 69.0
+  z: 206.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 244.0
+  y: 81.0
+  z: 206.0
+  yaw: 45.75
+  pitch: -22.65
+afk: false
+geolocation: United Kingdom

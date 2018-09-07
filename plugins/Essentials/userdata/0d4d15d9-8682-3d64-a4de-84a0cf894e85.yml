@@ -1,0 +1,20 @@
+geolocation: United Kingdom
+lastAccountName: iiooo
+timestamps:
+  login: 1536198111800
+  logout: 1536198289342
+ipAddress: 25.39.60.95
+lastlocation:
+  world: world
+  x: 244.5
+  y: 69.0
+  z: 206.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 290.30000001192104
+  y: 78.7531999805212
+  z: 159.69999998807907
+  yaw: -149.7012
+  pitch: 26.549995
