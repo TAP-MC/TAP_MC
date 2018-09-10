@@ -1,0 +1,44 @@
+# #########################################################
+#                         FREE-SIGN                        
+# #########################################################
+# 
+# !!!THIS CONFIG IS REALLY IMPORTANT. READ ALL BEFORE CHANGE!!!
+# 
+# If you don't use only ID's or Amouts in the same line you need
+# replacer. You mustn't replace Chatcolors, but the letters.
+#   for example: Your second line look like that: '&6ItemID: &7%ID%'
+#   you must use the replace like so: 'ItemID: '
+# Moreover the size of your Inventory can only be 9,18,27,36,45,54
+# The lenght of your Inventory-Name shouldn't be longer than 32 character
+# 
+# If you find Bugs or you have got wishes write a PM at MultiworldLP in Spigot
+# If you want sth in last line of sign write %nothing% in this config at line 4 and you can use your own text
+
+FreeSign:
+  Prefix: '&8[&6Free&eSign&8] &7'
+Inventory-Name: '&8&l> &6Free&7-&eSign'
+Inventory-Size: 9
+Sign:
+  Line:
+    '1': '&8[&bFREE&8]'
+    '2': '&8ID: &7%ID%'
+    '3': '&8Amout: &7%amout%'
+    '4': ''
+    Replacer:
+      '2': 'ID: '
+      '3': 'Amout: '
+  Set:
+    Items:
+    - 5
+  delay: false
+  delaytime: 3
+  message: You must wait &c%time%
+Rest:
+  Item:
+    ID: 160
+    SubID: 7
+    Amout: 1
+    Name: '&1'
+    Lore:
+    - '&6'
+    Use: false

@@ -1,24 +1,61 @@
 groups:
   default:
     options:
-      default: true
+      default: 'true'
       prefix: '&2[สมาชิก]§f - '
     permissions:
+    - /skin
     - modifyworld.*
+    - essentials.help
+    - essentials.sethome
+    - essentials.home
+    - essentials.spawn
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
   admin:
     permissions:
-    - op
+    - tsch
+    - permissions.*
+    - worldedit.*
+    - essentials.*
     options:
       prefix: '&4[แอดมิน]§f - '
+  VIP:
+    options:
+      prefix: '&5[เทพทรู]§f - '
+    permissions:
+    - essentials.hat
+  builder:
+    permissions:
+    - /gamemode
+    - worldedit.*
+    - essentials.gamemode
+    options:
+      prefix: '&D[นักก่อสร้าง]§f - '
+  VIP2:
+    options:
+      prefix: '&5[เทพทรู&cบินได้]§f - '
+    permissions:
+    - essentials.hat
+    - essentials.fly
+    - essentials.tp
+    - essentials.tp.others
 schema-version: 1
 users:
-  da001305-0591-3a69-a319-bf6d678ee232:
-    group:
-    - admin
-    options:
-      name: tsch
   6791eba2-4438-3449-84f9-f8ef2ac07436:
     group:
     - admin
+    - builder
+    - VIP2
+    - default
     options:
       name: topcast
+  1b5e7e0d-a78a-339d-bbe6-925080309174:
+    group:
+    - admin
+    - builder
+    - VIP
+    - default
+    options:
+      name: TSCH

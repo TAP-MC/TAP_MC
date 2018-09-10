@@ -1,11 +1,5 @@
 [
   {
-    "uuid": "da001305-0591-3a69-a319-bf6d678ee232",
-    "name": "tsch",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
     "uuid": "46c9fc2f-8bcc-3694-a9ea-e24c10fd8944",
     "name": "flldflg",
     "level": 4,
@@ -14,6 +8,12 @@
   {
     "uuid": "1f61ba06-e8b5-3916-a803-2178457165fc",
     "name": "snowleo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1b5e7e0d-a78a-339d-bbe6-925080309174",
+    "name": "TSCH",
     "level": 4,
     "bypassesPlayerLimit": false
   },

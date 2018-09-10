@@ -1,13 +1,29 @@
 lastAccountName: topcast
 timestamps:
-  login: 1536328151716
-  logout: 1536328503365
+  login: 1536513708773
+  logout: 1536513534634
+  lastteleport: 1536518982076
 ipAddress: 127.0.0.1
 afk: false
 logoutlocation:
   world: world
-  x: 301.2140702395336
-  y: 94.22372160975476
-  z: 274.5256716116062
-  yaw: 36.749863
-  pitch: 68.100006
+  x: 261.5681848912172
+  y: 79.80815183281871
+  z: 149.36161483957247
+  yaw: -133.49945
+  pitch: 41.999954
+lastlocation:
+  world: world
+  x: 255.39649933056225
+  y: 138.3811813058322
+  z: -165.33547074156297
+  yaw: 76.673096
+  pitch: 24.89991
+homes:
+  home:
+    world: world
+    x: 181.4823608614303
+    y: 64.0
+    z: 174.39386323862547
+    yaw: -186.45029
+    pitch: 19.949993
