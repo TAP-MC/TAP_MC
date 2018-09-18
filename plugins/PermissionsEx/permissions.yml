@@ -13,12 +13,23 @@ groups:
     - essentials.tpa
     - essentials.tpaccept
     - essentials.tpdeny
+    - redprotect.user
+    - WarpSystem.Use
+    - simplesit.sit
+    - authme.player.*
+    - supplysign.access
   admin:
     permissions:
-    - tsch
+    - supplysign.*
     - permissions.*
     - worldedit.*
     - essentials.*
+    - redprotect.*
+    - WarpSystem.*
+    - easygm.*
+    - thuum.*
+    - guilds.*
+    - authme.admin.*
     options:
       prefix: '&4[แอดมิน]§f - '
   VIP:
@@ -28,11 +39,19 @@ groups:
     - essentials.hat
   builder:
     permissions:
+    - redprotect.admin
     - /gamemode
     - worldedit.*
     - essentials.gamemode
     options:
       prefix: '&D[นักก่อสร้าง]§f - '
+    worlds:
+      theklaoww:
+        permissions:
+        - user
+      Maxdemonkung:
+        permissions:
+        - user
   VIP2:
     options:
       prefix: '&5[เทพทรู&cบินได้]§f - '
@@ -51,6 +70,7 @@ users:
     - default
     options:
       name: topcast
+      prefix: '&7[&bคนโหดที่&2โคตรโหด&c]'
   1b5e7e0d-a78a-339d-bbe6-925080309174:
     group:
     - admin
@@ -59,3 +79,22 @@ users:
     - default
     options:
       name: TSCH
+  8129411b-1d83-3530-a471-e68edff1724d:
+    worlds:
+      builder:
+        permissions:
+        - group
+    group:
+    - admin
+    options:
+      name: theklaoww
+  4848dede-0af2-357a-bf68-1e2b2f5219e3:
+    worlds:
+      builder:
+        permissions:
+        - group
+    group:
+    - admin
+    - builder
+    options:
+      name: Maxdemonkung

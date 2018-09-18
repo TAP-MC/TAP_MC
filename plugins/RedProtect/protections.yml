@@ -1,0 +1,50 @@
+# Chat protection.
+chat-protection:
+  chat-enhancement:
+    enabled: false
+    end-with-dot: true
+    colorize-playernames: true
+    colorize-prefix-color: '&e@'
+    anti-flood:
+      enable: true
+      whitelist-flood-characs:
+      - k
+  antispam:
+    enabled: false
+    time-beteween-messages: 1
+    count-of-same-message: 5
+    time-beteween-same-messages: 10
+    colldown-msg: '&6Slow down your messages!'
+    wait-message: '&cWait to send the same message again!'
+    cmd-action: kick {player} Relax, slow down your messages frequency ;)
+  censor:
+    enabled: false
+    replace-by-symbol: true
+    by-symbol: '*'
+    by-word: censored
+    replace-partial-word: false
+    replace-words:
+    - word1
+    cmd-action: ''
+  anti-ip:
+    enabled: false
+    custom-ip-regex: ^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$
+    custom-url-regex: ((http:\/\/|https:\/\/)?(www.)?(([a-zA-Z0-9-]){2,}\.){1,4}([a-zA-Z]){2,6}(\/([a-zA-Z-_\/\.0-9#:?=&;,]*)?)?)
+    check-for-words:
+    - www.google.com
+    whitelist-words:
+    - www.myserver.com
+    - prntscr.com
+    - gyazo.com
+    cancel-or-replace: cancel
+    cancel-msg: '&cYou cant send websites or ips on chat'
+    replace-by-word: -removed-
+    punish:
+      enable: false
+      max-attempts: 3
+      mute-or-cmd: mute
+      mute-duration: 1
+      mute-msg: '&cYou have been muted for send IPs or URLs on chat!'
+      unmute-msg: '&aYou can chat again!'
+      cmd-punish: tempban {player} 10m &cYou have been warned about send links or
+        IPs on chat!

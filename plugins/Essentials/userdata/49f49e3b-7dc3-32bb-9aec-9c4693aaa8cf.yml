@@ -1,0 +1,20 @@
+geolocation: United Kingdom
+lastAccountName: dfsdf
+timestamps:
+  login: 1537084767723
+  logout: 1537084876792
+ipAddress: 25.66.6.243
+lastlocation:
+  world: world
+  x: 244.5
+  y: 69.0
+  z: 206.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 261.69999998807907
+  y: 137.0
+  z: -155.65183495039366
+  yaw: 43.97304
+  pitch: 82.94998

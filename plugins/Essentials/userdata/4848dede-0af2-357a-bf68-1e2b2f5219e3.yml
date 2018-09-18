@@ -1,0 +1,20 @@
+geolocation: United Kingdom
+lastAccountName: Maxdemonkung
+timestamps:
+  login: 1536943201420
+  logout: 1536945484080
+ipAddress: 25.51.179.154
+lastlocation:
+  world: world
+  x: 240.0850683774159
+  y: 137.0
+  z: -163.38452885738164
+  yaw: 313.9838
+  pitch: 51.14995
+logoutlocation:
+  world: world
+  x: 249.50164382245103
+  y: 137.0
+  z: -149.33704484088062
+  yaw: 136.21875
+  pitch: 14.850265

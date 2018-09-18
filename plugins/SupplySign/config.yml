@@ -14,7 +14,7 @@ ShowErrorsInClient: Yes
 # Allowed values are: Yes
 #                     No
 #
-AllowNonOpAccess: No
+AllowNonOpAccess: Yes
 
 #
 # FixSignOnSignGlitch: this setting fixes the glitch where a player can place a sign 

@@ -1,0 +1,73 @@
+{
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2561-09-16 14:33:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "apple": "2561-09-16 14:45:27 +0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2561-09-16 15:08:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2561-09-16 14:33:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2561-09-16 14:45:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2561-09-16 14:33:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2561-09-16 15:05:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2561-09-16 14:33:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2561-09-16 14:33:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2561-09-16 14:33:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2561-09-16 14:34:40 +0700",
+      "birch_forest": "2561-09-16 14:33:35 +0700",
+      "beaches": "2561-09-16 14:33:54 +0700",
+      "plains": "2561-09-16 14:33:16 +0700",
+      "ocean": "2561-09-16 14:34:15 +0700",
+      "river": "2561-09-16 14:34:21 +0700"
+    },
+    "done": false
+  }
+}

@@ -1,0 +1,42 @@
+EasyGameMode:
+  Permissions:
+    Gamemode0:
+      Self: easygm.gms.self
+      Other: easygm.gms.other
+    Gamemode1:
+      Self: easygm.gmc.self
+      Other: easygm.gmc.other
+    Gamemode2:
+      Self: easygm.gma.self
+      Other: easygm.gmsp.other
+    Gamemode3:
+      Self: easygm.gmsp.self
+  Messages:
+    Gamemode0:
+      Self: §aYour GameMode has been set to §5Survival
+      Other1: §aYou has set the GameMode from
+      Other2: §ato §5Survival
+      Error:
+        Command: §4Use /gms <Player>
+    Gamemode1:
+      Self: §aYour GameMode has been set to §5Creative
+      Other1: §aYou has set the GameMode from
+      Other2: §ato §5Creative
+      Error:
+        Command: §4Use /gmc <Player>
+    Gamemode2:
+      Self: §aYour GameMode has been set to §5Advanture
+      Other1: §aYou has set the GameMode from
+      Other2: §ato §5Advanture
+      Error:
+        Command: §4Use /gma <Player>
+    Gamemode3:
+      Self: §aYour GameMode has been set to §5Spectator
+      Other1: §aYou has set the GameMode from
+      Other2: §ato §5Spectator
+      Error:
+        Command: §4Use /gmsp <Player>
+    Error:
+      Permission: ' §4You don''t have permissions to do this. If it is wrong pls Contact
+        a Admin!'
+      Offline: ' §4The Player is Offline'

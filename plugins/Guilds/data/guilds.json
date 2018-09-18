@@ -1,0 +1,14 @@
+{
+  "MASTER": {
+    "prefix": "MASTERRR",
+    "members": [
+      {
+        "uuid": "6791eba2-4438-3449-84f9-f8ef2ac07436",
+        "role": 0
+      }
+    ],
+    "allies": [],
+    "invitedMembers": [],
+    "pendingAllies": []
+  }
+}

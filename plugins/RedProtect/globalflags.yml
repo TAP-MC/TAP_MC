@@ -1,0 +1,422 @@
+# +--------------------------------------------------------------------+ #
+# <          RedProtect Global Flags configuration File                > #
+# <--------------------------------------------------------------------> #
+# <         This is the global flags configuration file.               > #
+# <                       Feel free to edit it.                        > #
+# <         https://github.com/FabioZumbi12/RedProtect/wiki            > #
+# +--------------------------------------------------------------------+ #
+# 
+# Notes:
+# Lists are [object1, object2, ...]
+# Strings containing the char & always need to be quoted
+
+
+# Configuration section for world world
+world:
+ # Players can build in this world?
+ build: true
+ # Allow any type of liquids to flow?
+ liquid-flow: true
+ allow-changes-of:
+  water-flow: true
+  lava-flow: true
+  leaves-decay: true
+  flow-damage: true
+ # If build option is false, choose what blocks the player can place/break.
+ # Materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+ if-build-false:
+  break-blocks: []
+  place-blocks: []
+ pvp: true
+ iceform-by:
+  player: false
+  world: true
+ interact: true
+ # If interact option is false, choose what blocks or entity the player can interact.
+ # EntityTypes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ if-interact-false:
+  allow-blocks: []
+  allow-entities: []
+ # Allow to use minecarts and boats in this world?
+ use-minecart: true
+ # Like creeperds and Endermans.
+ entity-block-damage: false
+ # Explosive entities can explode blocks?
+ explosion-entity-damage: true
+ # Block will break on fire?
+ fire-block-damage: false
+ fire-spread: false
+ player-hurt-monsters: true
+ player-hurt-passives: true
+ # Allow entities to spawn only inside regions if blacklisted/whitelisted?
+ spawn-allow-on-regions: false
+ # spawn-blacklist: This mobs will NOT spawn in this world!
+ # 
+ # You can use MONSTERS or PASSIVES groups.
+ # Check the entity types here:
+ # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ spawn-blacklist: []
+ # spawn-whitelist: ONLY this mobs will spawn in this world!
+ # 
+ # You can use MONSTERS or PASSIVES groups.
+ # Check the entity types here:
+ # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ spawn-whitelist: []
+ elytra:
+  allow: true
+  boost: 0.5
+ # Control what items the player can use.
+ deny-item-usage:
+  allow-on-claimed-rps: true
+  allow-on-wilderness: false
+  items: []
+ player-velocity:
+  walk-speed: -1
+  fly-speed: -1
+ # Execute this command on enter in this world.
+ # You can use this placeholders: {world-from}, {world-to} and {player}
+ on-enter-cmds: []
+ # Execute this command on exit this world.
+ # You can use this placeholders: {world-from}, {world-to} and {player}
+ on-exit-cmds: []
+ invincible: false
+ player-candrop: true
+ player-canpickup: true
+ rain:
+  trys-before-rain: 3
+  duration: 60
+ allow-crops-trample: true
+ # Execute commands in certain coordinate ranges.
+ command-ranges:
+  home:
+   min-range: 0
+   max-range: 256
+   message: '&cYou cant use /home when mining or in caves!'
+
+# Configuration section for world world_nether
+world_nether:
+ # Players can build in this world?
+ build: true
+ # Allow any type of liquids to flow?
+ liquid-flow: true
+ allow-changes-of:
+  water-flow: true
+  lava-flow: true
+  leaves-decay: true
+  flow-damage: true
+ # If build option is false, choose what blocks the player can place/break.
+ # Materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+ if-build-false:
+  break-blocks: []
+  place-blocks: []
+ pvp: true
+ iceform-by:
+  player: false
+  world: true
+ interact: true
+ # If interact option is false, choose what blocks or entity the player can interact.
+ # EntityTypes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ if-interact-false:
+  allow-blocks: []
+  allow-entities: []
+ # Allow to use minecarts and boats in this world?
+ use-minecart: true
+ # Like creeperds and Endermans.
+ entity-block-damage: false
+ # Explosive entities can explode blocks?
+ explosion-entity-damage: true
+ # Block will break on fire?
+ fire-block-damage: false
+ fire-spread: false
+ player-hurt-monsters: true
+ player-hurt-passives: true
+ # Allow entities to spawn only inside regions if blacklisted/whitelisted?
+ spawn-allow-on-regions: false
+ # spawn-blacklist: This mobs will NOT spawn in this world!
+ # 
+ # You can use MONSTERS or PASSIVES groups.
+ # Check the entity types here:
+ # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ spawn-blacklist: []
+ # spawn-whitelist: ONLY this mobs will spawn in this world!
+ # 
+ # You can use MONSTERS or PASSIVES groups.
+ # Check the entity types here:
+ # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ spawn-whitelist: []
+ elytra:
+  allow: true
+  boost: 0.5
+ # Control what items the player can use.
+ deny-item-usage:
+  allow-on-claimed-rps: true
+  allow-on-wilderness: false
+  items: []
+ player-velocity:
+  walk-speed: -1
+  fly-speed: -1
+ # Execute this command on enter in this world.
+ # You can use this placeholders: {world-from}, {world-to} and {player}
+ on-enter-cmds: []
+ # Execute this command on exit this world.
+ # You can use this placeholders: {world-from}, {world-to} and {player}
+ on-exit-cmds: []
+ invincible: false
+ player-candrop: true
+ player-canpickup: true
+ rain:
+  trys-before-rain: 3
+  duration: 60
+ allow-crops-trample: true
+ # Execute commands in certain coordinate ranges.
+ command-ranges:
+  home:
+   min-range: 0
+   max-range: 256
+   message: '&cYou cant use /home when mining or in caves!'
+
+# Configuration section for world world_the_end
+world_the_end:
+ # Players can build in this world?
+ build: true
+ # Allow any type of liquids to flow?
+ liquid-flow: true
+ allow-changes-of:
+  water-flow: true
+  lava-flow: true
+  leaves-decay: true
+  flow-damage: true
+ # If build option is false, choose what blocks the player can place/break.
+ # Materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+ if-build-false:
+  break-blocks: []
+  place-blocks: []
+ pvp: true
+ iceform-by:
+  player: false
+  world: true
+ interact: true
+ # If interact option is false, choose what blocks or entity the player can interact.
+ # EntityTypes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ if-interact-false:
+  allow-blocks: []
+  allow-entities: []
+ # Allow to use minecarts and boats in this world?
+ use-minecart: true
+ # Like creeperds and Endermans.
+ entity-block-damage: false
+ # Explosive entities can explode blocks?
+ explosion-entity-damage: true
+ # Block will break on fire?
+ fire-block-damage: false
+ fire-spread: false
+ player-hurt-monsters: true
+ player-hurt-passives: true
+ # Allow entities to spawn only inside regions if blacklisted/whitelisted?
+ spawn-allow-on-regions: false
+ # spawn-blacklist: This mobs will NOT spawn in this world!
+ # 
+ # You can use MONSTERS or PASSIVES groups.
+ # Check the entity types here:
+ # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ spawn-blacklist: []
+ # spawn-whitelist: ONLY this mobs will spawn in this world!
+ # 
+ # You can use MONSTERS or PASSIVES groups.
+ # Check the entity types here:
+ # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ spawn-whitelist: []
+ elytra:
+  allow: true
+  boost: 0.5
+ # Control what items the player can use.
+ deny-item-usage:
+  allow-on-claimed-rps: true
+  allow-on-wilderness: false
+  items: []
+ player-velocity:
+  walk-speed: -1
+  fly-speed: -1
+ # Execute this command on enter in this world.
+ # You can use this placeholders: {world-from}, {world-to} and {player}
+ on-enter-cmds: []
+ # Execute this command on exit this world.
+ # You can use this placeholders: {world-from}, {world-to} and {player}
+ on-exit-cmds: []
+ invincible: false
+ player-candrop: true
+ player-canpickup: true
+ rain:
+  trys-before-rain: 3
+  duration: 60
+ allow-crops-trample: true
+ # Execute commands in certain coordinate ranges.
+ command-ranges:
+  home:
+   min-range: 0
+   max-range: 256
+   message: '&cYou cant use /home when mining or in caves!'
+
+# Configuration section for world test
+test:
+ # Players can build in this world?
+ build: true
+ # Allow any type of liquids to flow?
+ liquid-flow: true
+ allow-changes-of:
+  water-flow: true
+  lava-flow: true
+  leaves-decay: true
+  flow-damage: true
+ # If build option is false, choose what blocks the player can place/break.
+ # Materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+ if-build-false:
+  break-blocks: []
+  place-blocks: []
+ pvp: true
+ iceform-by:
+  player: false
+  world: true
+ interact: true
+ # If interact option is false, choose what blocks or entity the player can interact.
+ # EntityTypes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ if-interact-false:
+  allow-blocks: []
+  allow-entities: []
+ # Allow to use minecarts and boats in this world?
+ use-minecart: true
+ # Like creeperds and Endermans.
+ entity-block-damage: false
+ # Explosive entities can explode blocks?
+ explosion-entity-damage: true
+ # Block will break on fire?
+ fire-block-damage: false
+ fire-spread: false
+ player-hurt-monsters: true
+ player-hurt-passives: true
+ # Allow entities to spawn only inside regions if blacklisted/whitelisted?
+ spawn-allow-on-regions: false
+ # spawn-blacklist: This mobs will NOT spawn in this world!
+ # 
+ # You can use MONSTERS or PASSIVES groups.
+ # Check the entity types here:
+ # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ spawn-blacklist: []
+ # spawn-whitelist: ONLY this mobs will spawn in this world!
+ # 
+ # You can use MONSTERS or PASSIVES groups.
+ # Check the entity types here:
+ # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ spawn-whitelist: []
+ elytra:
+  allow: true
+  boost: 0.5
+ # Control what items the player can use.
+ deny-item-usage:
+  allow-on-claimed-rps: true
+  allow-on-wilderness: false
+  items: []
+ player-velocity:
+  walk-speed: -1
+  fly-speed: -1
+ # Execute this command on enter in this world.
+ # You can use this placeholders: {world-from}, {world-to} and {player}
+ on-enter-cmds: []
+ # Execute this command on exit this world.
+ # You can use this placeholders: {world-from}, {world-to} and {player}
+ on-exit-cmds: []
+ invincible: false
+ player-candrop: true
+ player-canpickup: true
+ rain:
+  trys-before-rain: 3
+  duration: 60
+ allow-crops-trample: true
+ # Execute commands in certain coordinate ranges.
+ command-ranges:
+  home:
+   min-range: 0
+   max-range: 256
+   message: '&cYou cant use /home when mining or in caves!'
+
+# Configuration section for world survival
+survival:
+ # Players can build in this world?
+ build: true
+ # Allow any type of liquids to flow?
+ liquid-flow: true
+ allow-changes-of:
+  water-flow: true
+  lava-flow: true
+  leaves-decay: true
+  flow-damage: true
+ # If build option is false, choose what blocks the player can place/break.
+ # Materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+ if-build-false:
+  break-blocks: []
+  place-blocks: []
+ pvp: true
+ iceform-by:
+  player: false
+  world: true
+ interact: true
+ # If interact option is false, choose what blocks or entity the player can interact.
+ # EntityTypes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ if-interact-false:
+  allow-blocks: []
+  allow-entities: []
+ # Allow to use minecarts and boats in this world?
+ use-minecart: true
+ # Like creeperds and Endermans.
+ entity-block-damage: false
+ # Explosive entities can explode blocks?
+ explosion-entity-damage: true
+ # Block will break on fire?
+ fire-block-damage: false
+ fire-spread: false
+ player-hurt-monsters: true
+ player-hurt-passives: true
+ # Allow entities to spawn only inside regions if blacklisted/whitelisted?
+ spawn-allow-on-regions: false
+ # spawn-blacklist: This mobs will NOT spawn in this world!
+ # 
+ # You can use MONSTERS or PASSIVES groups.
+ # Check the entity types here:
+ # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ spawn-blacklist: []
+ # spawn-whitelist: ONLY this mobs will spawn in this world!
+ # 
+ # You can use MONSTERS or PASSIVES groups.
+ # Check the entity types here:
+ # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+ spawn-whitelist: []
+ elytra:
+  allow: true
+  boost: 0.5
+ # Control what items the player can use.
+ deny-item-usage:
+  allow-on-claimed-rps: true
+  allow-on-wilderness: false
+  items: []
+ player-velocity:
+  walk-speed: -1
+  fly-speed: -1
+ # Execute this command on enter in this world.
+ # You can use this placeholders: {world-from}, {world-to} and {player}
+ on-enter-cmds: []
+ # Execute this command on exit this world.
+ # You can use this placeholders: {world-from}, {world-to} and {player}
+ on-exit-cmds: []
+ invincible: false
+ player-candrop: true
+ player-canpickup: true
+ rain:
+  trys-before-rain: 3
+  duration: 60
+ allow-crops-trample: true
+ # Execute commands in certain coordinate ranges.
+ command-ranges:
+  home:
+   min-range: 0
+   max-range: 256
+   message: '&cYou cant use /home when mining or in caves!'
